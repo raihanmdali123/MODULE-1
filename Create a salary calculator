@@ -1,0 +1,13 @@
+basic_salary=float(input("Enter the basic salary: "))
+hra=basic_salary*0.10
+da=basic_salary*0.05
+gross_salary=basic_salary+hra+da
+deduction=basic_salary*0.20 
+net_salary=gross_salary-deduction
+print("The salary details are: ", 
+    "Basic Salary:", basic_salary,
+    "HRA:", hra,
+    "DA:", da,
+    "Gross Salary:", gross_salary,
+    "Deduction:", deduction, 
+    "Net Salary:", net_salary)

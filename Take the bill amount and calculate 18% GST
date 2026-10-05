@@ -1,0 +1,7 @@
+#QUESTION 6
+# Take the bill amount and calculate 18% GST
+
+bill_amount=float(input("Enter the bill amount:")) 
+Gst=float(bill_amount/100)*18
+print(f"Total GST is :{Gst}")
+print(f"Total bill with 18% Gst :{bill_amount+Gst}")

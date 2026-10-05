@@ -1,0 +1,23 @@
+#QUESTION 13
+# Create a BMI calculator
+
+print(" BMI calculators ")
+NAME=input("Enter your name:")
+#cnvt height in feet to height in meter
+height_feet=float(input("Hight in FEET:"))
+height_meter=height_feet*0.3048
+#wieght in kg
+weight=float(input("Weight in KG"))
+
+bmi=weight/(height_meter)**2
+print("BMI:", bmi)
+if bmi<18.5:
+    print("You are underweight")    
+elif bmi>=18.5 and bmi<24.9:
+    print("You are normal weight")  
+elif bmi>=25 and bmi<29.9:
+    print("You are overweight") 
+else:
+    print("You are obese")  
+    
+

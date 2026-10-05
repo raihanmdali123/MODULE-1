@@ -1,0 +1,36 @@
+#QUESTION 12
+# Create a student marks calculator
+
+print("       .....student marks calculator.....      ")
+
+name=input("Enter student name:")
+#Enter marks for 5 subjects
+maths = int(input("Enter Maths marks: "))
+science = int(input("Enter Science marks: "))
+english = int(input("Enter English marks: "))
+hindi = int(input("Enter Hindi marks: "))
+computer = int(input("Enter Computer marks: "))
+total_marks=maths + science + english + hindi + computer    
+percentage=total_marks/5
+#calculate grade
+if percentage >= 90:
+    grade = 'A+'
+elif percentage >= 80:      
+    grade = 'A' 
+elif percentage >= 70:
+    grade = 'B'
+elif percentage >=60:
+    grade = 'C'
+elif percentage >=50:
+    grade = 'D'
+elif percentage >=40:
+    grade = 'E'
+else :
+    print("fail")
+
+print("\n===== Student Result =====")
+print("Student Name:", name)
+print("Total Marks:", total_marks, "/ 500")
+print("Percentage:", percentage, "%")
+print("Grade:", grade)
+

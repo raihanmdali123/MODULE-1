@@ -1,0 +1,18 @@
+
+
+#QUESTION 5
+# Take marks of 5 subjects and calculate total and percentage
+
+sub1=int(input("Marks in English: "))
+sub2=int(input("Marks in Hindi: "))
+sub3=int(input("Marks in Maths: "))
+sub4=int(input("Marks in Science: "))
+sub5=int(input("Marks in Social: "))
+total_marks=sub1+sub2+sub3+sub4+sub5
+percentage=(total_marks/500)*100
+print(f"Total marks obtained: {total_marks}")
+print(f"Percentage: {percentage}%")
+if percentage<40:
+    print("Result: Fail")
+else:
+    print("Result: Pass  :", percentage  )    

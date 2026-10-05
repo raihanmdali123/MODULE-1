@@ -1,0 +1,10 @@
+
+
+#QUESTION 8
+# Convert total minutes into hours and remaining minutes
+
+minute=int(input("Enter the minutes:"))
+hour=int(minute/60)
+remaining_minute=minute%60
+print("Total hours:", hour)
+print("Remaining minutes:", remaining_minute)

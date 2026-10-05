@@ -1,0 +1,6 @@
+#QUESTION 7
+# Take salary and calculate salary after a 10% bonus
+
+salary=int(input("Enter your salary:"))
+bonus=int(salary/10)
+print("salary with bonus:",salary+bonus)
